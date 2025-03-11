@@ -6,7 +6,7 @@
  */
 
 
-import { IModuleConf } from '@wangeditor/editor'
+import { IModuleConf } from '@wangeditor-next/editor'
 import withTag from './plugin'
 import renderElemConf from './render-elem'
 import elemToHtmlConf from './elem-to-html'

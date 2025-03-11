@@ -91,6 +91,12 @@ const insertTag = ({id, label}: TagType) => {
       // color: "#f00",
     },
     children: [{ text: "" }], // 必须有一个空 text 作为 children
+    tooltip: label + '自定义标签',
+    tooltipStyle: {
+      background: 'white',
+      color: '#000',
+      border: '1px solid #303333',
+    }
   };
   const editor = editorRef.value;
   if (editor) {

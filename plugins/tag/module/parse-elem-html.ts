@@ -4,7 +4,7 @@
  */
 
 import { DOMElement } from '../utils/dom'
-import { IDomEditor, SlateDescendant, SlateElement } from '@wangeditor/editor'
+import { IDomEditor, SlateDescendant, SlateElement } from '@wangeditor-next/editor'
 import { TagElement } from './custom-types'
 import { ElType } from '../utils/el-type'
 function parseHtml(
