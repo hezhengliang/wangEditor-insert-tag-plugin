@@ -91,8 +91,8 @@ const insertTag = ({id, label}: TagType) => {
       // color: "#f00",
     },
     children: [{ text: "" }], // 必须有一个空 text 作为 children
-    tooltip: label + '自定义标签',
-    tooltipStyle: {
+    tooltip: label + '自定义标签', // tooltip（非必选， 默认为label）
+    tooltipStyle: { // tooltip 自定义样式（非必选）
       background: 'white',
       color: '#000',
       border: '1px solid #303333',

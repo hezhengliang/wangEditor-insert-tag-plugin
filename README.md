@@ -11,7 +11,6 @@
 ### 说明
 
 ```js
-
 const insertTag = ({id, label}: TagType) => {
   const tagNode = {
     type: "tag", // 唯一
