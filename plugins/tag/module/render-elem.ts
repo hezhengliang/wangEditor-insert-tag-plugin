@@ -6,7 +6,7 @@
  */
 
 import { h, VNode } from 'snabbdom'
-import { IDomEditor, SlateElement } from '@wangeditor/editor'
+import { IDomEditor, SlateElement } from '@wangeditor-next/editor'
 import { TagElement } from './custom-types'
 import { ElType } from '../utils/el-type'
 function renderCustomTag(el: SlateElement, children: VNode[] | null, editor: IDomEditor): VNode {

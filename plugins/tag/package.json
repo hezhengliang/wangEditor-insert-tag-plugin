@@ -1,0 +1,15 @@
+{
+  "name": "@wangeditor-plugins/tag",
+  "version": "0.0.2",
+  "description": "WangEditor tag plugin",
+  "main": "index.ts",
+  "module": "index.ts",
+  "types": "index.ts",
+  "peerDependencies": {
+    "@wangeditor-next/editor": "^5.1.1",
+    "@wangeditor-next/editor-for-vue": "^5.1.12"
+  },
+  "dependencies": {
+    "snabbdom": "^3.5.1"
+  }
+}

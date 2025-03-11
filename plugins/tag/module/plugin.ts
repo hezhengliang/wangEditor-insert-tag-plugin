@@ -1,7 +1,7 @@
 /**
  * @description 参考：https://www.wangeditor.com/v5/development.html#%E5%9C%A8%E7%BC%96%E8%BE%91%E5%99%A8%E4%B8%AD%E6%B8%B2%E6%9F%93%E6%96%B0%E5%85%83%E7%B4%A0
  */
-import { DomEditor, IDomEditor } from '@wangeditor/editor'
+import { DomEditor, IDomEditor } from '@wangeditor-next/editor'
 import { ElType } from '../utils/el-type'
 function withTag<T extends IDomEditor>(editor: T) {
   const { insertText, isInline, isVoid } = editor

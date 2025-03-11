@@ -33,12 +33,12 @@
 </template>
 
 <script lang="ts" setup>
-import "@wangeditor/editor/dist/css/style.css";
+import "@wangeditor-next/editor/dist/css/style.css";
 import { onBeforeUnmount, ref, shallowRef, onMounted, nextTick } from "vue";
-import { Editor, Toolbar } from "@wangeditor/editor-for-vue";
-import { Boot } from '@wangeditor/editor'
-import type { IDomEditor } from '@wangeditor/editor'
-import tagModule from '../plugins/tag/index'
+import { Editor, Toolbar } from "@wangeditor-next/editor-for-vue";
+import { Boot } from '@wangeditor-next/editor'
+import type { IDomEditor } from '@wangeditor-next/editor'
+import tagModule from '@wangeditor-plugins/tag'
 console.log(tagModule)
 type TagType = Record<string, string|number>
 // 注册插件
