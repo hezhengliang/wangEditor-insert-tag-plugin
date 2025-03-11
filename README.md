@@ -3,9 +3,9 @@
 
 ### 运行
 ```
-  yarn install 
+  pnpm install 
 
-  yarn run dev
+  pnpm run dev
 ```
 
 ### 说明
